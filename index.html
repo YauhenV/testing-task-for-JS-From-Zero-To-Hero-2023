@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Тестовое задание для JS From Zero To Hero 2023">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Тестовое задание для JS From Zero To Hero 2023</title>
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper">
+
+      <div class="header__wrapper">
+
+        <div class="header__logo">
+          <a href="" class="header__logo-link">
+            <img class="header__logo-img" src="./img/logo.jpg" alt="logo">
+          </a>
+        </div>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#about" class="header__link js-scroll">О себе</a>
+            </li>
+            <li class="header__item">
+              <a href="#education" class="header__link js-scroll">Образование</a>
+            </li>
+            <li class="header__item">
+              <a href="#experience" class="header__link js-scroll">Опыт работы</a>
+            </li>
+            <li class="header__item">
+              <a href="#contacts" class="header__link js-scroll">Контакты</a>
+            </li>
+          </ul>
+          <div class="header__nav-close">
+            <span class="header__nav-close-line"></span>
+            <span class="header__nav-close-line"></span>
+          </div>
+        </nav>
+
+        <div class="header__burger burger">
+          <span class="burger__line burger__line_first"></span>
+          <span class="burger__line burger__line_second"></span>
+          <span class="burger__line burger__line_third"></span>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="about" id="about">
+      <div class="wrapper">
+        <h3>О себе</h3>
+        <div class="about__wrapper section__wrapper">
+
+          <div class="about__content">
+            <div class="about__content-title">
+              <h1>Верин Евгений</h1>
+              <a href="./cv/cv.pdf" target="_blank" class="about__button-CV_area"><span class="about__button-CV">Download My CV</span></a>
+            </div>
+            <div class="about__text">
+              <p>Привет, меня зовут Евгений. Мне 30 лет и я начинающий Front-End разработчик.</p>
+              <p>Обладаю хорошими знаниями по таким технологиям как HTML, CSS, JS, React, React Hooks, TypeScript. Работал с props, useState, useContext, useReducer и т.д, react-router-dom, react-icons. Есть опыт верстки макетов с Photoshop и Figma. Умею работать с хостингами, доменами, DNS-записями, FTP, SFTP, SSH и BASH.</p>
+              <p>Увлекаюсь радиоэлектроникой, автомобилями и современными технологиями.</p>
+            </div>
+            <h3>Навыки</h3>
+            <div class="about__skill">
+              <ul class="about__skill-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SASS</li>
+                <li>БЭМ</li>
+                <li>Адаптивная верстка</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Git</li>
+                <li>Figma</li>
+                <li>Photoshop</li>
+                <li>Pixel Perfect</li>
+                <li>Linux (Bash)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="about__photo">
+            <img src="./img/photo-min.png" alt="My photo">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="education" id="education">
+      <div class="wrapper">
+        <h3>Образование</h3>
+        <div class="section__wrapper">
+          <div class="education__content content">
+            <div class="education__item1">БЕЛОРУССКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ ИНФОРМАТИКИ И РАДИОЭЛЕКТРОНИКИ</div>
+            <div class="education__item3">2010 - 2015</div>
+            <div class="education__item2">Факультет Компьютерного проектирования.</div>
+            <div class="education__item2">Специальность: Инженер-проектировщик.</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="wrapper">
+        <h3>Релевантный опыт работы</h3>
+        <div class="section__wrapper">
+          <div class="experience__content content">
+            <ul class="experience__list">
+              <li>Верстка кроссбраузерных адаптивных сайтов с использованием БЭМ
+                методологии и препроцессора SCSS.</li>
+              <li>Верстка макетов из Figma и Photoshop.</li>
+              <li>Реализовано более 4 учебных React приложений разной сложности.</li>
+              <li>Применение функциональных и классовых компонентов, props и
+                Hooks при реализации React приложений.</li>
+              <li>Решено более 70% практических заданий с ресурса learn.javascript.ru.</li>
+              <li>Решено более 100 алгоритмических задач на ресурсе codewars.com.</li>
+              <li>Был реализован анимированный мультик в рамках изучения CSS.</li>
+              <li>На GitHub.com отправлялся и хранился весь изученный материал.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="contacts" id="contacts">
+    <div class="wrapper">
+      <h3>Контакты</h3>
+      <div class="section__wrapper">
+        <div class="content">
+          <div class="contacts__item">Почта: <a href="mailto:gene9281@gmail.com">gene9281@gmail.com</a></div>
+          <div class="contacts__item">Мобильный телефон: <a href="tel:+375295055358">+375 (29) 505-53-58</a></div>
+          <div class="contacts__item">Telegram: <a href="https://telegram.me/Eugene_Veryn" target="_blank">@Eugene_Veryn</a></div>
+          <div class="contacts__item">GitHub: <a href="https://github.com/YauhenV">YauhenV</a></div>
+          <div class="contacts__item">Сайт с примерами работ: <a href="http://46.101.220.7/">46.101.220.7</a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
